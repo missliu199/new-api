@@ -3,10 +3,7 @@
   "services": {
     "app": {
       "root": ".",
-      "entrypoint": "Dockerfile.vercel",
-      "envs": [
-        "PORT"
-      ]
+      "entrypoint": "Dockerfile.vercel"
     }
   },
   "rewrites": [
