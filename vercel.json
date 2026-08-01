@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "Dockerfile.vercel": {
+      "maxDuration": 300
+    }
+  },
+  "installCommand": "node -v",
+  "buildCommand": "echo 'docker build handled automatically via Dockerfile.vercel'"
+}
